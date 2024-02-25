@@ -1,4 +1,5 @@
 import Listining from "../models/listining.model.js";
+import User from "../models/user.model.js";
 
 export const deleteListings = async (req, res, next) => {
   try {
@@ -91,3 +92,7 @@ export const getListining = async (req, res, next) => {
     next(error);
   }
 };
+
+
+
+
